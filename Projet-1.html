@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Luis Vela Portfolio</title>
+    <!-- Lien vers un fichier CSS commun (optionnel) -->
+    <!-- <link rel="stylesheet" href="style.css"> -->
+
+    <style>
+        /* Styles généraux harmonisés avec index.html */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 40px;
+            background-color: #f2f2f2; /* même fond que la page principale */
+            color: #333;
+        }
+
+        h1, h2 {
+            color: #0077B5;
+        }
+
+        iframe {
+            width: 100%;
+            height: 600px;
+            border: none;
+            margin-top: 20px;
+        }
+
+        .description {
+            margin-top: 20px;
+            line-height: 1.6;
+        }
+
+        .button-back {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 10px 20px;
+            background-color: #0077B5;
+            color: #fff;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .button-back:hover {
+            background-color: #005582;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <h1>Toy Store Chain</h1>
+
+    <!-- Intégration du rapport Power BI -->
+    <iframe src="https://app.powerbi.com/view?r=eyJrIjoiNTU1YWQ0MzgtZDQ2NS00ZTFiLTgwNjYtOGFhYmI2NjdiZTcwIiwidCI6IjI1Y2UwMjYxLWJiZDYtNDljZC1hMWUyLTU0MjYwODg2ZDE1OSJ9" allowFullScreen></iframe>
+
+    <!-- Description du projet -->
+    <div class="description">
+        <h2>Description</h2>
+        <p>
+            In this project, I help a toy store chain with multiple locations to better understand their business performance.<br><br>
+            To accomplish this, I have created a simple and interactive report that the management team can use to monitor key performance indicators and high-level trends.
+            This dashboard is intended for the management team, regional directors and store managers. To meet the needs of each level of user, I created a table with three levels
+            of indicators.<br><br>
+            The executive overview contains high-level information:<br>
+            - Total transactions<br>
+            - Total revenue<br>
+            - Total profit, sales targets and sales breakdowns.<br><br>
+            The market insight provides regional managers with indicators by store location and by city. Finally, the product insight contains more granular data on products sold and 
+            their respective categories. This data shows revenue, profit, profit margin and average cost.
+        </p>
+    </div>
+
+    <!-- Bouton retour -->
+    <a href="index.html" class="button-back">Back to projects</a>
+</body>
+</html>
